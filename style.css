@@ -1,0 +1,46 @@
+body { 
+    background-image: url(images/cook.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    font-family: 'Papyrus';
+    
+}
+
+.header {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Space elements out */
+    align-items: center; /* Align items vertically */
+    background-color: transparent; /* Background color for the box */
+    padding: 10px; /* Padding inside the box */
+   
+}
+
+.header h1 {
+    margin-right: auto; /* Pushes everything else to the right */
+    text-align: right; /* Aligns the text to the right */
+    font-size: xx-large;
+}
+
+.header input[type="search"] {
+    width: 200px; /* Width of the search bar */
+    padding: 5px; /* Padding inside the search bar */
+    border: 1px solid #ccc; /* Border of the search bar */
+    border-radius: 5px; /* Rounded corners of the search bar */
+}
+
+.main p {
+    font-weight: bolder;
+    color: black;
+    font-size: xx-large;
+}
+
+a {
+    color: black;
+}
+
+.custom-image {
+    max-width: 50%;
+    height: auto;
+}
